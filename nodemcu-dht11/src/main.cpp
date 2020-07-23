@@ -3,8 +3,8 @@
 #include <Wifi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "OLIVEIRA";
-const char* password = "20099002";
+const char* ssid = "";
+const char* password = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
